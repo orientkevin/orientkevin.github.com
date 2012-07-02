@@ -4,7 +4,7 @@
   <title><![CDATA[Orient Kevin's Study Notes]]></title>
   <link href="http://orientkevin.github.com/atom.xml" rel="self"/>
   <link href="http://orientkevin.github.com/"/>
-  <updated>2012-07-03T04:16:58+08:00</updated>
+  <updated>2012-07-03T04:21:48+08:00</updated>
   <id>http://orientkevin.github.com/</id>
   <author>
     <name><![CDATA[楚国小生]]></name>
@@ -18,7 +18,10 @@
     <link href="http://orientkevin.github.com/blog/2012/07/03/the-third-page/"/>
     <updated>2012-07-03T03:58:00+08:00</updated>
     <id>http://orientkevin.github.com/blog/2012/07/03/the-third-page</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>This is a normal paragraph:</p>
+
+<pre><code>This is a code block.
+</code></pre>
 ]]></content>
   </entry>
   
