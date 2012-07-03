@@ -4,7 +4,7 @@
   <title><![CDATA[Orient Kevin's Study Notes]]></title>
   <link href="http://orientkevin.github.com/atom.xml" rel="self"/>
   <link href="http://orientkevin.github.com/"/>
-  <updated>2012-07-03T08:55:50+08:00</updated>
+  <updated>2012-07-03T09:41:06+08:00</updated>
   <id>http://orientkevin.github.com/</id>
   <author>
     <name><![CDATA[楚国小生]]></name>
@@ -12,44 +12,5 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[the third page]]></title>
-    <link href="http://orientkevin.github.com/blog/2012/07/03/the-third-page/"/>
-    <updated>2012-07-03T03:58:00+08:00</updated>
-    <id>http://orientkevin.github.com/blog/2012/07/03/the-third-page</id>
-    <content type="html"><![CDATA[<p>This is a normal paragraph:</p>
-
-<pre><code>This is a code block.
-</code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[20-30岁你该做的事]]></title>
-    <link href="http://orientkevin.github.com/blog/2012/07/03/20-30sui-ni-gai-zuo-de-shi/"/>
-    <updated>2012-07-03T02:14:00+08:00</updated>
-    <id>http://orientkevin.github.com/blog/2012/07/03/20-30sui-ni-gai-zuo-de-shi</id>
-    <content type="html"><![CDATA[<p>呵呵 ，这只是一个测试文件！</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[helloworld]]></title>
-    <link href="http://orientkevin.github.com/blog/2012/07/02/helloworld/"/>
-    <updated>2012-07-02T22:53:00+08:00</updated>
-    <id>http://orientkevin.github.com/blog/2012/07/02/helloworld</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[my first page]]></title>
-    <link href="http://orientkevin.github.com/blog/2012/07/02/my-first-page/"/>
-    <updated>2012-07-02T22:22:00+08:00</updated>
-    <id>http://orientkevin.github.com/blog/2012/07/02/my-first-page</id>
-    <content type="html"><![CDATA[
-]]></content>
-  </entry>
   
 </feed>
