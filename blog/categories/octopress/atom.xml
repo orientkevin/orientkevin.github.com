@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Orient Kevin's Study Notes]]></title>
-  <link href="http://orientkevin.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Octopress | Orient Kevin's Study Notes]]></title>
+  <link href="http://orientkevin.github.com/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://orientkevin.github.com/"/>
   <updated>2012-07-03T10:04:55+08:00</updated>
   <id>http://orientkevin.github.com/</id>
@@ -98,7 +98,7 @@ id sem consectetuer libero luctus adipiscing.</p></blockquote>
 </ol>
 
 
-<p>Here&#8217;s some example code:</p>
+<p>Here's some example code:</p>
 
 <pre><code>return shell_exec("echo $input | $markdown_script");
 </code></pre></blockquote>
@@ -354,7 +354,7 @@ title attribute.</p>
 
 
 <p> 如果你是要連結到同樣主機的資源，你可以使用相對路徑：
-See my <a href="http://orientkevin.github.com/about/">About</a> page for details.</p>
+See my <a href="/about/">About</a> page for details.</p>
 
 <p> 參考形式的連結使用另外一個方括號接在連結文字的括號後面，而在第二個方括號裡面要填入用以辨識連結的標籤：
 This is <a href="http://example.com/" title="Optional Title Here">an example</a> reference-style link.</p>
@@ -381,7 +381,7 @@ This is <a href="http://example.com/" title="Optional Title Here">an example</a>
 [link text][a]
 [link text][A]</p>
 
-<p> 預設的連結標籤功能讓你可以省略指定連結標籤，這種情形下，連結標籤和連結文字會視為相同，要用預設連結標籤只要在連結文字後面加上一個空的方括號，如果你要讓 &#8220;Google&#8221; 連結到 google.com，你可以簡化成：
+<p> 預設的連結標籤功能讓你可以省略指定連結標籤，這種情形下，連結標籤和連結文字會視為相同，要用預設連結標籤只要在連結文字後面加上一個空的方括號，如果你要讓 "Google" 連結到 google.com，你可以簡化成：
 <a href="http://google.com/" title="Google">Google</a></p>
 
 <p> 然後定義連結內容：
@@ -480,11 +480,11 @@ A single backtick in a code span: <code>`</code></p>
 
 
 <p> 在程式碼區段內，&amp; 和方括號都會被轉成 HTML 實體，這樣會比較容易插入 HTML 原始碼，Markdown 會把下面這段：
-Please don&#8217;t use any <code>&lt;blink&gt;</code> tags.</p>
+Please don't use any <code>&lt;blink&gt;</code> tags.</p>
 
 <p> 轉為：</p>
 
-<p>Please don&#8217;t use any <code>&lt;blink&gt;</code> tags.</p>
+<p>Please don't use any <code>&lt;blink&gt;</code> tags.</p>
 
 
 <p> 你也可以這樣寫：
@@ -503,14 +503,14 @@ equivalent of <code>&amp;mdash;</code>.</p>
 <p>Markdown 使用一種和連結很相似的語法來標記圖片，同樣也允許兩種樣式： 行內和參考。</p>
 
 <p>行內圖片的語法看起來像是：
-<img src="http://orientkevin.github.com/path/to/img.jpg" alt="Alt text" /></p>
+<img src="/path/to/img.jpg" alt="Alt text" /></p>
 
-<p><img src="http://orientkevin.github.com/path/to/img.jpg" title="Optional title" alt="Alt text" /></p>
+<p><img src="/path/to/img.jpg" title="Optional title" alt="Alt text" /></p>
 
 <p> 詳細敘述如下：
  •一個驚嘆號 !
  •接著一個方括號，裡面放上圖片的替代文字
- •接著一個普通括號，裡面放上圖片的網址，最後還可以用引號包住並加上 選擇性的 &#8216;title&#8217; 文字。</p>
+ •接著一個普通括號，裡面放上圖片的網址，最後還可以用引號包住並加上 選擇性的 'title' 文字。</p>
 
 <p>參考式的圖片語法則長得像這樣：
 <img src="http://example.com/" title="Optional Title Here" alt="Alt text" /></p>
@@ -531,7 +531,7 @@ equivalent of <code>&amp;mdash;</code>.</p>
 <a href="http://example.com/">http://example.com/</a></p>
 
 <p> 自動的郵件連結也很類似，只是 Markdown 會先做一個編碼轉換的過程，把文字字元轉成 16 進位碼的 HTML 實體，這樣的格式可以混淆一些不好的信箱地址收集機器人，例如：
-<a href="&#x6d;&#97;&#x69;&#108;&#x74;&#x6f;&#x3a;&#97;&#100;&#x64;&#x72;&#x65;&#x73;&#115;&#64;&#x65;&#120;&#x61;&#x6d;&#x70;&#108;&#101;&#x2e;&#99;&#111;&#x6d;">&#97;&#x64;&#x64;&#114;&#101;&#115;&#115;&#x40;&#101;&#x78;&#97;&#109;&#112;&#108;&#x65;&#x2e;&#x63;&#111;&#109;</a></p>
+<a href="&#x6d;&#97;&#105;&#x6c;&#x74;&#111;&#58;&#97;&#100;&#100;&#x72;&#101;&#x73;&#x73;&#64;&#101;&#120;&#x61;&#x6d;&#112;&#x6c;&#x65;&#x2e;&#99;&#x6f;&#x6d;">&#x61;&#x64;&#x64;&#114;&#x65;&#115;&#115;&#x40;&#x65;&#x78;&#x61;&#109;&#112;&#108;&#101;&#x2e;&#99;&#x6f;&#109;</a></p>
 
 <p> Markdown 會轉成：
 <a href="&#x6D;&#x61;i&#x6C;&#x74;&#x6F;:&#x61;&#x64;&#x64;&#x72;&#x65;
